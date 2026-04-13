@@ -125,7 +125,6 @@ RUN chmod +x /usr/local/bin/startup.sh
 EXPOSE 8080
 WORKDIR /home/app
 
-HEALTHCHECK --interval=15s --timeout=5s --start-period=120s --retries=5 \
-  CMD curl -fsS http://127.0.0.1:8080/ || exit 1
+# Sem HEALTHCHECK aqui - configurado diretamente no Coolify
 
 ENTRYPOINT ["/usr/bin/tini", "--", "/usr/local/bin/startup.sh"]
