@@ -37,6 +37,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     ca-certificates \
     net-tools \
+    netcat-openbsd \
     locales \
     fonts-dejavu-core \
     fonts-noto-core \
@@ -124,7 +125,7 @@ RUN chmod +x /usr/local/bin/startup.sh
 EXPOSE 8080
 WORKDIR /home/app
 
-HEALTHCHECK --interval=30s --timeout=5s --start-period=30s --retries=3 \
+HEALTHCHECK --interval=15s --timeout=5s --start-period=120s --retries=5 \
   CMD curl -fsS http://127.0.0.1:8080/ || exit 1
 
 ENTRYPOINT ["/usr/bin/tini", "--", "/usr/local/bin/startup.sh"]
