@@ -1,18 +1,22 @@
 # 🖥️ Pc-da-xuxa: O Workspace que não deveria existir
 
-Bem-vindo ao **Pc-da-xuxa**, um projeto que prova que se você colocar um motor de Ferrari num Uno Mille, ele voa (ou explode, o que vier primeiro). Isso aqui não é apenas um container Docker; [span_1](start_span)[span_2](start_span)é um ecossistema completo de sobrevivência dev dentro de um Ubuntu 24.04[span_1](end_span)[span_2](end_span).
+Bem-vindo ao **Pc-da-xuxa**, um projeto que prova que se você colocar um motor de Ferrari num Uno Mille, ele voa (ou explode, o que vier primeiro). Isso aqui não é apenas um container Docker; é um ecossistema completo de sobrevivência dev dentro de um Ubuntu 24.04.
 
 Se você já sentiu que seu computador atual é um "fantasma tentando existir em 720p", esse workspace veio pra te dar a energia de um Senior que toma café puro e debuga em produção.
+
+---
 
 ## 🚀 O que tem nessa Nave? (Aura Stack)
 
 A gente não economizou no `apt-get install`. Se existe, a gente instalou:
 
-* **[span_3](start_span)Ambiente Gráfico:** XFCE4 pra quem gosta de estabilidade e não quer que o servidor decole[span_3](end_span).
-* **[span_4](start_span)Browsers:** Brave (pra bloquear os anúncios da vida) e Firefox (o clássico imortal)[span_4](end_span).
-* **[span_5](start_span)Desenvolvimento:** VS Code, Node.js v20 e Java 21 (porque a gente é poliglota, mano)[span_5](end_span).
-* **[span_6](start_span)Banco de Dados:** DBeaver CE (pra olhar pro seu SQL e chorar com estilo)[span_6](end_span).
-* **[span_7](start_span)Escritório & Lazer:** OnlyOffice pra fingir produtividade e VLC/OBS Studio pra quando a vibe de influencer bater[span_7](end_span).
+* **⚡ Ambiente Gráfico:** XFCE4 pra quem gosta de estabilidade e não quer que o servidor decole.
+* **🌐 Browsers:** Brave (pra bloquear os anúncios da vida) e Firefox (o clássico imortal).
+* **💻 Desenvolvimento:** VS Code, Node.js v20 e Java 21 (porque a gente é poliglota, mano).
+* **🗄️ Banco de Dados:** DBeaver CE (pra olhar pro seu SQL e chorar com estilo).
+* **💼 Escritório & Lazer:** OnlyOffice pra fingir produtividade e VLC/OBS Studio pra quando a vibe de influencer bater.
+
+---
 
 ## 🛠️ Como dar vida ao Monstro
 
