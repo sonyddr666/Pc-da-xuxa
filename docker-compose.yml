@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  ubuntu-desktop:
+    build: 
+      context: .
+    container_name: desktop-custom-app
+    hostname: pc-da-xuxa
+    security_opt:
+      - seccomp:unconfined
+    ports:
+      - "9999:8080"
+      - "5905:5900"
+    shm_size: '2g'
+    restart: unless-stopped
+
